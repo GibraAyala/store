@@ -22,7 +22,6 @@ class CreatedProductsTable extends Migration
             $table->text('img3');
             $table->double('price');
             $table->text('color');
-            $table->array('images');
             $table->timestamps();
         });
     }
